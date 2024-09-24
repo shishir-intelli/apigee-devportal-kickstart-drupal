@@ -20,9 +20,9 @@
 
 namespace Drupal\apigee_devportal_kickstart\Installer\Form;
 
-use Drupal\apigee_edge\Form\AuthenticationForm;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Messenger\MessengerInterface;
+use Drupal\apigee_edge\Form\AuthenticationForm;
 
 /**
  * Configuration form for Apigee Edge.
