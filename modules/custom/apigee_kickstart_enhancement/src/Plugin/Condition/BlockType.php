@@ -20,13 +20,13 @@
 
 namespace Drupal\apigee_kickstart_enhancement\Plugin\Condition;
 
-use Drupal\block\BlockInterface;
-use Drupal\block_content\BlockContentUuidLookup;
 use Drupal\Core\Condition\ConditionPluginBase;
 use Drupal\Core\Entity\EntityFormInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\block\BlockInterface;
+use Drupal\block_content\BlockContentUuidLookup;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
