@@ -20,10 +20,10 @@
 
 namespace Drupal\apigee_kickstart_enhancement\Routing;
 
+use Drupal\Core\Routing\RouteSubscriberBase;
 use Drupal\apigee_edge\Entity\ListBuilder\DeveloperAppListBuilderForDeveloper;
 use Drupal\apigee_edge_teams\Entity\ListBuilder\TeamAppListByTeam;
 use Drupal\apigee_kickstart_enhancement\ApigeeKickStartEnhancerInterface;
-use Drupal\Core\Routing\RouteSubscriberBase;
 use Symfony\Component\Routing\RouteCollection;
 
 /**
