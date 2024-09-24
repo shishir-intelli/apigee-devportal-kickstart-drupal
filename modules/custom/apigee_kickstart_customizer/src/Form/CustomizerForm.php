@@ -20,7 +20,6 @@
 
 namespace Drupal\apigee_kickstart_customizer\Form;
 
-use Drupal\apigee_kickstart_customizer\CustomizerInterface;
 use Drupal\Core\Ajax\AjaxFormHelperTrait;
 use Drupal\Core\Ajax\AjaxResponse;
 use Drupal\Core\Ajax\RedirectCommand;
@@ -29,6 +28,7 @@ use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Routing\RedirectDestinationInterface;
 use Drupal\Core\Url;
+use Drupal\apigee_kickstart_customizer\CustomizerInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**

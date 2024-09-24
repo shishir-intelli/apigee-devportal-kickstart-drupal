@@ -20,9 +20,9 @@
 
 namespace Drupal\apigee_devportal_kickstart\Installer;
 
+use Drupal\Core\Form\FormState;
 use Drupal\apigee_m10n_add_credit\AddCreditConfig;
 use Drupal\commerce_price\Price;
-use Drupal\Core\Form\FormState;
 use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
 
 /**
