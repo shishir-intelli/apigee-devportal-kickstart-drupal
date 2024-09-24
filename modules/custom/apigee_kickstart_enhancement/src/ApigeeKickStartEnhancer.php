@@ -20,9 +20,9 @@
 
 namespace Drupal\apigee_kickstart_enhancement;
 
-use Drupal\apigee_edge\Entity\AppInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\apigee_edge\Entity\AppInterface;
 
 /**
  * Defines the 'apigee_kickstart.enhancer` service.

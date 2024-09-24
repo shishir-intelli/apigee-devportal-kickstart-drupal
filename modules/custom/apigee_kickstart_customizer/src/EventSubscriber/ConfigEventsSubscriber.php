@@ -20,9 +20,9 @@
 
 namespace Drupal\apigee_kickstart_customizer\EventSubscriber;
 
-use Drupal\apigee_kickstart_customizer\CustomizerInterface;
 use Drupal\Core\Config\ConfigCrudEvent;
 use Drupal\Core\Config\ConfigEvents;
+use Drupal\apigee_kickstart_customizer\CustomizerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
