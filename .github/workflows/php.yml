@@ -22,7 +22,9 @@ jobs:
   build:
 
     runs-on: ubuntu-24.04
-    
+    permissions:
+      contents: read
+      security-events: write
     name: "PHP ${{ matrix.php-version }} | Drupal ${{ matrix.drupal-core }}"
     strategy:
       fail-fast: false
