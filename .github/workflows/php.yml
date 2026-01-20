@@ -67,7 +67,7 @@ jobs:
         mkdir -p drupal/sites/simpletest/browser_output
   
     - name: Checkout apigee_devportal_kickstart distribution
-      uses: actions/checkout@v3.0.0
+      uses: actions/checkout@v4
       with:
         path: drupal/profiles/contrib/apigee_devportal_kickstart
 
